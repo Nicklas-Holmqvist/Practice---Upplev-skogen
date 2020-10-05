@@ -1,0 +1,246 @@
+@media (max-width: 47rem ) {
+
+    .mobile-only {
+        display: flex;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-family: 'Dancing Script', cursive;
+        font-size: 1.6rem;
+    }
+    
+    h3 {
+        font-size: 1.6rem;
+        font-family: 'Dancing Script', cursive;
+    }
+    
+    h4 {
+        font-size: 1.4rem;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    p {
+        font-size: .8rem;
+    }
+
+    i {
+        font-size: .8rem;
+        padding: .3rem;
+    }
+
+    .btn {
+        width: 12rem;
+
+        font-size: 1rem;
+    
+        background: rgb(252, 252, 252);
+    
+        border-radius: 10px;
+        border: .5px rgb(22, 22, 22) solid ;
+        
+        padding: .6rem .8rem;  
+    }
+
+    nav {
+        display: none;
+    }
+
+    header {
+        /* position: relative;
+        height: 3rem; */
+    }
+
+    .nav-mobile {
+        padding-top: .35rem;
+        padding-left: .35rem;
+    }
+
+    .fa-bars {
+        font-size: 1.8rem;
+        color: black;
+    }
+
+    .forrest {
+        width:100%;
+    }    
+
+    .inline-hero {
+        top: 40%;
+    }
+
+    .social-icons {    
+        padding-top: .5rem;
+    }
+
+    .what-to-do-container {
+        /* height: 53rem; */
+        width: 100%;
+    }
+
+    .what-to-do-section {
+        /* height: 70rem; */
+
+        padding: 0 0;
+
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .item-1 {
+        padding:9rem 0;
+    }
+
+    .item-2 {
+       padding:9rem 0;
+    }
+
+    .item-2:first-child {
+        margin-bottom: .5rem;;
+    }
+
+    .what-to-do-container:first-child {
+        margin-bottom: .5rem;
+    }
+
+    .what-to-do-container:last-child {
+        
+    }
+
+    .what-to-do-hover {
+        padding: 1rem 0;
+        background: rgba(255, 255, 255, .7);
+        width: 100%;
+        transition: 1s;
+    }
+
+    .trails {
+        background: url(./style/img/maksim-shutov-6QdCabcMnhE-unsplash-square.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .hiking {
+        background: url(./style/img/garrett-parker-2jyxADdd2t4-unsplash-square.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .mountainbike {
+        background-image: url(./style/img/julian-hochgesang-JvEdepEZtb0-unsplash-square.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .info-card-container {
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0rem 0;
+    }
+
+    .info-card-item {
+        width: 100%;
+        padding: 6rem 4rem;
+        margin: .5rem 0 0 0;
+
+        color: rgb(240, 240, 240);
+    }
+
+    .btn-info{
+        color: rgb(240, 240, 240);
+        border: .5px rgb(240, 240, 240) solid ;
+
+        background: rgba(20, 20, 20, .6);
+
+        cursor: pointer;
+
+        font-size: 1rem;
+        padding: .6rem .8rem;   
+    }
+
+    .info-hover-1 {
+        background-image: url(./style/img/ilja-tulit-2NW9VFKNePU-unsplash-square.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .info-hover-2 {
+        background-image: url(./style/img/robert-bye-JvUVo08dndQ-unsplash-square.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .info-hover-3 {
+        background-image: url(./style/img/alice-donovan-rouse-z9F_yK4Nmf8-unsplash-squre.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* .info-hover-1:hover {
+        background-image: url(./style/img/ilja-tulit-2NW9VFKNePU-unsplash-square.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .info-hover-2:hover {
+        background-image: url(./style/img/robert-bye-JvUVo08dndQ-unsplash-square.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .info-hover-3:hover {
+        background-image: url(./style/img/alice-donovan-rouse-z9F_yK4Nmf8-unsplash-squre.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    } */
+
+
+    /* Checklist */
+
+    .checklist-section {
+        margin: .6rem 0;
+    }
+
+    .checklist-container {
+        padding: 2rem 0 2rem 0; 
+    }
+
+    .check-list {
+        flex-direction: column;
+
+        padding-top: 1rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .check-list ul {
+        justify-content: center;
+        align-items: flex-start;
+        width: 90%;
+        margin-left: 10%;
+        padding: 1rem 0;
+    }
+
+    .check-list h4 {
+        padding-bottom: .4rem;
+    }
+
+    .google-maps {
+        padding:1.6rem 0;
+    }
+
+    .google-maps p {    
+        width: 80%;
+        padding: .5rem 0 1.5rem 0;
+    }
+}

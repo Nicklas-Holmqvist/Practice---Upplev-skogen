@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS-files -->
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mobile.css">
+    
+
+    <!-- Font and Scripts -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/e5bc88f7ae.js" crossorigin="anonymous"></script>
+
+    <!-- Title -->
+    
+    <title>Upplev skogens magiska värld</title>
+
+    <!-- --- -->
+
+</head>
+<body>
+<header>
+
+    <!-- Skulle vilja ha solid color när scroll, javascript? -->
+    <div class="header-absolute">
+        <nav>
+            <ul>
+                <li><a href="#">Besök skogen</a></li>
+                <li><a href="#">Våra skogar</a></li>
+                <li><a href="#">Ta med dig</a></li>
+                <li><a href="#">Kartor</a></li>
+                <li><a href="#">Kontakta</a></li>
+            </ul>
+        </nav>
+        <div class="nav-mobile flex display-none mobile-only">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+
+</header>
+<main>
+    <div class="hero-section">
+        <video class="forrest" autoplay loop muted>
+            <source src="pexels_video_ 2711145.mp4" type="video/mp4" />
+        </video>
+        <div class="inline-hero">
+        <h1>
+            Hitta dig själv
+        </h1>
+        <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+        </div>
+    </div>
+    <div class="what-to-do-section max-width flex center around row ">
+        <div class="what-to-do-container flex trails center row">
+            <div class="what-to-do-item item-1 flex center text-align">
+                <h2 class="h2-display-none">Leder</h2>
+                <div class="what-to-do-hover flex center column hover-visible">
+                    <h2>Leder</h2>
+                    <p>I Sverige har vi några av de vackraste lederna i världen.
+                        Från söder till norr kan vi vandra fritt i den undersköna naturen.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="what-to-do-container flex column between">
+            <div class="what-to-do-item item-2 flex center text-align hiking">
+                <h2 class="h2-display-none">Vandra</h2>
+                <div class="what-to-do-hover flex center column hover-visible">
+                    <h2>Vandra</h2>
+                    <p>I Sverige har vi några av de vackraste lederna i världen.
+                        Från söder till norr kan vi vandra fritt i den undersköna naturen.
+                    </p>
+                </div>
+            </div>
+            <div class="what-to-do-item item-2 flex center text-align mountainbike">
+                <h2 class="h2-display-none">Cykla</h2>
+                <div class="what-to-do-hover flex center column hover-visible">
+                    <h2>Cykla</h2>
+                    <p>I Sverige har vi några av de vackraste lederna i världen.
+                        Från söder till norr kan vi vandra fritt i den undersköna naturen.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="info-cards-section flex center">
+        <div class="info-card-container max-width width flex row around">
+            <div class="info-card-item info-hover-1 width flex center between column text-align">
+                <div class="card-text">
+                    <h3>Övernatta</h3>
+                    <p>Det finns flertal sätt att övernatta innan en tur eller under en tur.
+                        Frågan är bara vad du föredrar?
+                    </p>
+                </div>
+                <div class="btn-info">Läs mer</div>
+            </div>
+            <div class="info-card-item info-hover-2 width flex center between column text-align">
+                <div class="card-text">
+                    <h3>Skapa minnen</h3>
+                    <p>Stora och små sjöar, stora skogar och höga berg.
+                        Vilka minnen vill du skapa?
+                    </p>
+                </div>
+                <div class="btn-info">Läs mer</div>
+            </div>
+            <div class="info-card-item info-hover-3 width flex center between column text-align">
+                <div class="card-text">
+                    <h3>Tips o Trix</h3>                
+                    <p>Här kan du få lite inspiration inför din tripp!</p>
+                </div>
+                <div class="btn-info">Läs mer</div>                
+            </div>
+        </div>
+    </div>
+    <div class="checklist-section width">
+        <div class="checklist-container max-width flex center column">
+            <h2>Glöm inte det viktigaste!</h2>
+            <div class="check-list flex width row around">
+                <ul class="column">
+                    <li>
+                        <h4>Kläder</h4>
+                    </li>
+                    <li>
+                        <i class="far fa-square"></i>
+                        <p>Skaljacka som är vattentät</p>
+                    </li>
+                    <li>
+                        <i class="far fa-square"></i>
+                        <p>Väl ingånga vandringskor</p>
+                    </li>
+                    <li>
+                        <i class="far fa-square"></i>                        
+                        <p>Underkläder i ull närmast kroppen</p>
+                    </li>
+                    <li>
+                        <i class="far fa-square"></i>
+                        <p>Extra sockar</p>
+                    </li>
+                    <li>
+                        <i class="far fa-square"></i>
+                        <p>Varm tröja, vantar och mössa</p>
+                    </li>
+                </ul>
+                <ul class="column">
+                    <li>
+                        <h4>Mat</h4>
+                    </li>
+                    <li>
+                        <i class="far fa-square"></i>
+                        <p>Vatten och ev vattenfilter</p>
+                    </li>
+                    <li>
+                        <i class="far fa-square"></i>
+                        <p>Energirik mat</p>
+                    </li>
+                    <li>
+                        <i class="far fa-square"></i>
+                        <p>Extra snacks/frukt</p>
+                    </li>
+                    <!-- <li>
+                        <i class="far fa-square"></i>
+                        <p></p>
+                    </li>
+                    <li>
+                        <i class="far fa-square"></i>
+                        <p></p>
+                    </li> -->
+                </ul>
+                <ul class="column">
+                    <li>
+                        <h4>Övrigt</h4>
+                    </li>
+                    <li>
+                        <i class="far fa-square"></i>
+                        <p>Resepotek</p>
+                    </li>
+                    <li>
+                        <i class="far fa-square"></i>
+                        <p>Fickkniv och tändstickor/stål</p>
+                    </li>
+                    <li>
+                        <i class="far fa-square"></i>
+                        <p>Kompass och karta</p>
+                    </li>
+                    <li>
+                        <i class="far fa-square"></i>
+                        <p>Ficklampa</p>
+                    </li>
+                    <li>
+                        <i class="far fa-square"></i>
+                        <p>Solkräm</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="btn-checklist btn text-align">Ladda ner hela listan</div>
+        </div>
+    </div>
+    <div class="google-maps-section">
+        <div class="google-maps width flex center column">
+            <div class="maps-text text-align flex center column">
+                <h3>Studera era framtida äventyr</h3>
+                <p>Att planera och studera var och hur man ska åka. Skapar en lugn i kroppen som i sig skapar en större och bättre upplevelse</p>
+            </div>        
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17151.318157767488!2d12.65832295!3d57.49681675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e2!4m0!4m0!5e0!3m2!1ssv!2sse!4v1601031188973!5m2!1ssv!2sse" width="1400px" height="500px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+</main>
+<footer>
+
+
+</footer>
+</body>
+</html>

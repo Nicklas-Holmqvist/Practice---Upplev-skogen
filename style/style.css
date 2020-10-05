@@ -1,0 +1,289 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(252, 252, 252);
+}
+
+/* Standarder */
+
+ul {
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 0 1rem 0 1rem;
+}
+
+h1 {
+    font-size: 5rem;
+    color: rgb(31, 31, 31);
+    font-family: 'Dancing Script', cursive;
+}
+
+h3 {
+    font-size: 1.6rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+a {
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+}
+
+i {
+    font-size: 1.2rem;
+    padding: .3rem;
+}
+
+.max-width {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.width {
+    width: 100%;
+}
+
+.flex {
+    display:flex;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.display-none {
+    display: none;
+}
+
+/* Header */
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 10;
+
+    /* background: rgba(255, 255, 255, .7); */
+    /* background: linear-gradient( rgba(255, 255, 255, .6), rgba(255, 255, 255, .0)); */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+/* Main */
+
+.hero-section {
+    position: relative;
+    background-color: #ececec;
+}
+
+.forrest {
+    width:100%;
+}
+
+.inline-hero {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.what-to-do-section {
+      height: 50rem;
+
+      padding: 3rem 0;
+      margin: auto;
+
+      background-color: #ececec;
+  }
+
+.what-to-do-container {
+      height: 100%;
+      width: 100%;
+
+      margin: .5rem;
+  }
+
+.what-to-do-item {
+      width: 100%;
+  }
+
+.item-2 {
+    height: 48.9%;
+}
+
+.what-to-do-item, h2, p {
+    color: rgb(240, 240, 240);
+}
+
+.what-to-do-item h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
+
+.what-to-do-hover {
+    padding: 4rem 0;
+    background: rgba(255, 255, 255, .7);
+    width: 100%;
+    transition: 1s;
+}
+
+.what-to-do-hover h2, p {
+    color: rgb(20, 20, 20);
+    width: 70%;
+}
+
+.what-to-do-hover p {
+    padding-top: .5rem;
+}
+
+.trails:hover .h2-display-none {
+    display: none;
+    transition: 1s;
+}
+
+.trails:hover .what-to-do-hover {
+    display: flex;
+    transition: 1s;
+}
+
+.hiking:hover .h2-display-none {
+    display: none;
+    transition: 1s;
+}
+
+.hiking:hover .what-to-do-hover {
+    display: flex;
+    transition: 1s;
+}
+
+.mountainbike:hover .h2-display-none {
+    display: none;
+    transition: 1s;
+}
+
+.mountainbike:hover .what-to-do-hover {
+    display: flex;
+    transition: 1s;
+}
+
+.mountainbike:hover .mountainbike {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.trails {
+    background: url(./style/img/maksim-shutov-H8vhhepiiaU-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hiking {
+    background: url(./style/img/garrett-parker-2jyxADdd2t4-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mountainbike {
+    background-image: url(./style/img/pau-casals-YEdxCOCXYSA-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Information cards */
+
+.info-cards-section {
+    background-color: #ececec;
+    /* height: 19.3rem; */
+}
+
+.info-cards-section p {
+    font-size: .8rem;
+}
+
+.info-card-container {
+    /* height: 15rem; */
+    padding: 0 5rem;
+    padding-bottom: 3rem;
+}
+
+.info-card-item {
+    /* height: 100%; */
+    padding: 4rem;
+    margin: 0.5rem;
+    background: rgb(252, 252, 252);
+
+    box-shadow: 2px 2px 5px rgba(000, 000, 000, .2);
+}
+
+/* Google maps */
+
+.google-maps {
+    max-width: 1200px;
+
+    padding: 2.5rem 0;
+    margin-bottom: 3rem;
+    background-color: rgb(252, 252, 252);
+
+}
+
+.google-maps h3 {
+    font-size: 2rem;
+}
+
+.google-maps p {
+    font-size: .8rem;
+
+    padding: .5rem 0 1.5rem 0;
+}
+
+/* Footer */
+
+
+

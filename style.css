@@ -1,0 +1,454 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+/* Standarder */
+
+ul {
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 0 1rem 0 1rem;
+}
+
+h1 {
+    font-size: 5rem;
+    color: rgb(31, 31, 31);
+    font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+h4 {
+    font-size: 1.4rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+p {
+    font-size: 1rem;
+}
+
+a {
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+}
+
+i {
+    font-size: 1.2rem;
+    padding: .3rem;
+}
+
+.max-width {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.width {
+    width: 100%;
+}
+
+.flex {
+    display:flex;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.btn {
+    width: 10rem;
+
+    background: rgb(252, 252, 252);
+
+    border-radius: 15px;
+    border: .5px rgb(22, 22, 22) solid ;
+    
+    padding: .7rem 2rem;   
+}
+
+.display-none {
+    display: none;
+}
+
+/* Header */
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 10;
+
+    /* background: rgba(255, 255, 255, .7); */
+    /* background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, 0)); */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem;
+}
+
+nav a {
+    font-weight: 500;
+    /* text-shadow: .5px .5px 2px rgba(000, 000, 000, .2); */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 1rem;
+}
+
+/* Main */
+
+.hero-section {
+    position: relative;
+    background-color: #f8f8f8;
+}
+
+.forrest {
+    width:100%;
+}
+
+.inline-hero {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+/* What to do section */
+
+.what-to-do-section {
+      /* height: 50rem; */
+
+      padding: 3rem 0;
+      margin: auto;
+
+      background-color:#f8f8f8;
+  }
+
+.what-to-do-container {
+      /* height: 100%; */
+      width: 100%;
+
+      margin: 0 .5rem;      
+  }
+
+.what-to-do-item {
+    position: relative;
+    width: 100%;    
+  }
+
+.item-1 {
+    padding: 20.265rem 0;
+}
+
+.what-to-do-container:first-child {
+    box-shadow: 2px 2px 5px rgba(000, 000, 000, .2);
+}
+
+.item-2 {
+    padding:9rem 0;
+    box-shadow: 2px 2px 5px rgba(000, 000, 000, .2);
+}
+
+.item-2:first-child {
+    margin-bottom: 1rem;
+}
+
+.what-to-do-item h2 {
+    color: rgb(240, 240, 240);
+}
+
+.what-to-do-item h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
+
+.what-to-do-hover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    opacity: 0;
+    padding: 4rem 0;
+    background: rgba(255, 255, 255, .7);
+    width: 100%;
+
+    transition: .5s;
+}
+
+.what-to-do-hover h2 {
+    color: rgb(20, 20, 20);
+    width: 70%;
+}
+
+.what-to-do-hover p {
+    padding-top: .5rem;
+    color: rgb(20, 20, 20);
+
+    width: 65%;
+}
+
+.h2-display-none {
+    opacity: 1;
+    transition: .3;
+}
+
+/* What to do hover settings */
+
+.trails:hover .h2-display-none {
+    opacity: 0;    
+}
+
+.trails:hover .what-to-do-hover {
+    opacity: 1;
+}
+
+.hiking:hover .h2-display-none {
+    opacity: 0;
+}
+
+.hiking:hover .what-to-do-hover {
+    opacity: 1;
+}
+
+.mountainbike:hover .h2-display-none {
+    opacity: 0;
+}
+
+.mountainbike:hover .what-to-do-hover {
+    opacity: 1;
+}
+
+.mountainbike:hover .mountainbike {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/* What to do backgrounds images */
+
+.trails {
+    background: url(./style/img/maksim-shutov-6QdCabcMnhE-unsplash-l.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hiking {
+    background: url(./style/img/garrett-parker-2jyxADdd2t4-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mountainbike {
+    background-image: url(./style/img/julian-hochgesang-JvEdepEZtb0-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Information cards */
+
+.info-cards-section {
+    background-color: #f8f8f8;
+}
+
+.info-cards-section p {
+    font-size: .8rem;
+
+    padding-top: .5rem;
+    padding-bottom: 2rem;
+}
+
+.info-card-item {
+
+    width: 32%;
+    padding: 5rem 2.4rem 5rem 2.4rem;
+
+    background: rgb(252, 252, 252);
+
+    box-shadow: 2px 2px 5px rgba(000, 000, 000, .2);
+
+    transition: .5s;
+}
+
+.btn-info {    
+    width: 10rem;
+
+    background: rgb(252, 252, 252);
+
+    border-radius: 15px;
+    border: .5px rgb(22, 22, 22) solid ;
+
+    padding: .7rem 2rem;   
+}
+
+/* Information cards hover settings */
+
+.info-card-item:hover {
+    color: rgb(240, 240, 240)
+}
+
+.info-card-item:hover .btn-info{
+    border: .5px rgb(240, 240, 240) solid ;
+
+    background: rgba(20, 20, 20, .6);
+
+    cursor: pointer;
+}
+
+.info-hover-1:hover {
+    background-image: url(./style/img/ilja-tulit-2NW9VFKNePU-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-hover-2:hover {
+    background-image: url(./style/img/robert-bye-JvUVo08dndQ-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-hover-3:hover {
+    background-image: url(./style/img/alice-donovan-rouse-z9F_yK4Nmf8-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Checklist */
+
+.checklist-section {
+    margin: 3rem 0 0 0;
+
+    background-image: url(./style/img/background-checklist.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.checklist-container {
+    background: rgba(252, 252, 252, .8);
+    padding: 3rem 0 4rem 0;
+
+    box-shadow: 2px 2px 5px rgba(000, 000, 000, .2);
+}
+
+.check-list {
+    padding-top: 1.6rem;
+    padding-bottom: 2rem;
+}
+
+.check-list li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.check-list li p {
+    padding-left: .2rem;
+}
+
+
+.check-list h2 {
+    color: rgb(20, 20, 20);
+}
+
+.btn-checklist {
+    width: 15rem;
+}
+
+.check-list h4 {
+    padding-bottom: .4rem;
+}
+/* Checklist hover settings */
+
+.btn:hover {
+    border: .5px rgb(240, 240, 240) solid ;
+
+    color: rgb(240, 240, 240);
+    background: rgba(20, 20, 20, .8);
+
+    cursor: pointer;
+}
+
+/* Google maps */
+
+.google-maps-section {
+    background-color: rgb(252, 252, 252);
+}
+
+.google-maps {
+    overflow: hidden;
+    padding: 2.5rem 0;
+    margin-bottom: 3rem;
+    background-color: rgb(252, 252, 252);
+
+    max-width: 1400px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+.google-maps p {
+    font-size: .8rem;
+
+    padding: .5rem 0 1.5rem 0;
+}
+
+/* Footer */
+
+
+

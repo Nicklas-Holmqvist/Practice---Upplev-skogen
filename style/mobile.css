@@ -1,0 +1,57 @@
+@media (max-width: 47rem ) {
+    h1 {
+        font-size: 2.5rem;
+    }
+   
+    nav {
+        display: none;
+    }
+
+    .what-to-do-section {
+        height: 80rem;
+  
+        padding: 3rem 0;
+        margin: auto;
+    }
+
+    .what-to-do-container {
+        height: 53rem;
+        width: 100%;
+  
+        margin: .5rem;
+    }
+
+    .what-to-do-section {  
+        padding: .5rem 0;
+    }
+
+    .what-to-do-section {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .what-to-do-hover {    
+        padding: 2rem 0;
+        background: rgba(255, 255, 255, .7);
+        width: 100%;
+        transition: 1s;
+    }
+    
+    .info-card-section {
+        height: 80rem;
+
+    }
+
+    .info-card-container {
+        height: auto;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0 0;
+    }
+
+    .info-card-item {
+        padding: 6rem 0;
+        margin: 0;
+    }
+    
+}
